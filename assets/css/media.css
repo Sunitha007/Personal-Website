@@ -1,0 +1,29 @@
+@media only screen and (max-width: 427px) {
+    .img2 {
+        height: 20rem;
+        width: auto;
+        border-radius: 15px;
+    }
+
+    progress {
+
+        width: 14pc;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .owl-nav {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .owl-nav {
+        display: block !important;
+    }
+    .carousel-item .col {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+}
